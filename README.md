@@ -133,3 +133,7 @@ For full details on the training process see [MODEL.md](./MODEL.md).
 ├── API.md
 └── MODEL.md
 ```
+
+## Screenshots
+
+![PC DEMO](app_demo1.png)
