@@ -249,9 +249,17 @@ async def main_page():
                     body: formData
                 });
                 const data = await response.json();
+                const resultElement = document.getElementById('result');
+                resultElement.innerText = `${data.label} \nScore: ${data.score.toFixed(4)} \nConfidence: ${data.confidence}`;
+                if (data.label === "NOT HOT DOG") {
+                    resultElement.style.color = "red";   // NOT HOT DOG → kırmızı
+                } else if (data.label === "HOT DOG") {
+                    resultElement.style.color = "green"; // HOT DOG → yeşil
+                } else {
+                    resultElement.style.color = "black"; // fallback
+                }
 
-                document.getElementById('result').innerText =
-                    "Result: " + data.label + " (Score: " + data.score.toFixed(2) + ")";
+
             }
         </script>
     </body>
