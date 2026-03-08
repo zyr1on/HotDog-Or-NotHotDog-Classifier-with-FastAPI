@@ -2,7 +2,9 @@
 
 A binary image classifier served as a web application. Upload any image and the model will tell you whether it contains a hotdog or not.
 
----
+![PC DEMO](ScreenShots/PC_DEMO.png)
+
+
 
 ## Installation
 
@@ -132,12 +134,6 @@ For full details on the training process see [MODEL.md](./MODEL.md).
 └── MODEL.md
 ```
 
-## Screenshots
-
-### Desktop
-
-![PC DEMO](ScreenShots/PC_DEMO.png)
-
-### Mobile
+### Mobile ScreenShot
 
 ![MOBILE DEMO](ScreenShots/MOBILE_DEMO.jpg)
