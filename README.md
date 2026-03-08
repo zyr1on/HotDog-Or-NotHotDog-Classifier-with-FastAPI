@@ -11,7 +11,7 @@ A binary image classifier served as a web application. Upload any image and the 
 ### Option 1 — Direct Install
 
 ```bash
-git clone https://github.com/zyr1on/HotDog-Or-NotHotDog-Classifier-with-FastAPI.git
+git clone https://github.com/zyr1on/HotDog-OR-NotHotDog-Classifier-with-FastAPI.git
 cd HotDog-Or-NotHotDog-Classifier-with-FastAPI
 
 pip install -r requirements.txt
@@ -22,7 +22,7 @@ python src/app.py
 ### Option 2 — Virtual Environment
 
 ```bash
-git clone https://github.com/zyr1on/HotDog-Or-NotHotDog-Classifier-with-FastAPI.git
+git clone https://github.com/zyr1on/HotDog-OR-NotHotDog-Classifier-with-FastAPI.git
 cd HotDog-Or-NotHotDog-Classifier-with-FastAPI
 
 python -m venv .venv
