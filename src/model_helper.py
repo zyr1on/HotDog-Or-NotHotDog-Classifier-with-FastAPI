@@ -26,11 +26,15 @@ class HotdogPredictor:
         
         # predict
         prediction_score = self.model.predict(img_array, verbose=0)[0][0]
+        confidence = abs(prediction_score - 0.5) * 2  # 0-1 arası
+        confidence_percentage = int(confidence * 100)
+
         
         # result definition
         label = "NOT HOT DOG" if prediction_score > 0.5 else "HOT DOG"
         
         return {
             "label": label,
-            "score": float(prediction_score)
+            "score": float(prediction_score),
+            "confidence": f"{confidence_percentage}%"
         }
