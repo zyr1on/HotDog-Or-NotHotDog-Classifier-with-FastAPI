@@ -134,4 +134,10 @@ For full details on the training process see [MODEL.md](./MODEL.md).
 
 ## Screenshots
 
-![PC DEMO](app_demo1.png)
+### Desktop
+
+![PC DEMO](ScreenShots/PC_DEMO.png)
+
+### Mobile
+
+![MOBILE DEMO](ScreenShots/MOBILE_DEMO.jpg)
