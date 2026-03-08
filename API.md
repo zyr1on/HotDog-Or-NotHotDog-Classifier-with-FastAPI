@@ -32,16 +32,15 @@ Supported formats: JPEG, PNG, WebP, BMP — any format readable by Pillow.
 **Response**
 
 ```json
-{
-  "label": "HOT DOG",
-  "score": 0.1834
-}
+{"label":"HOT DOG","score":0.018630878999829292,"confidence":"96%"}
 ```
 
 | Field | Type | Description |
 |---|---|---|
 | `label` | string | `"HOT DOG"` or `"NOT HOT DOG"` |
 | `score` | float | Raw sigmoid output in range [0.0, 1.0] |
+| `confidence` | int | confidence of model result |
+
 
 **Score interpretation**
 
