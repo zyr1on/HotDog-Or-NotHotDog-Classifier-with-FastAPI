@@ -78,13 +78,11 @@ For a detailed breakdown of the architecture, training parameters, and inference
 tensorflow==2.19.0
 keras==3.10.0
 numpy==2.0.2
-Pillow>=10.0.0
-fastapi>=0.110.0
-uvicorn[standard]>=0.29.0
-python-multipart>=0.0.9
-scikit-learn>=1.4.0
-matplotlib>=3.8.0
-seaborn>=0.13.0
+Pillow
+fastapi[standard]
+uvicorn[standard]
+scikit-learn
+matplotlib
 ```
 
 ---
